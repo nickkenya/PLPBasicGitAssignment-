@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Stuffs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Food Stuffs</h1>
+        <img src="https://via.placeholder.com/400x200" alt="Technology Image">
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Food Stuffs!</h2>
+        <p>This website is dedicated to exploring various food items and their deliciousness.</p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="#"><img src="https://via.placeholder.com/200x200" alt="Nature Image"></a>
+            <a href="#"><img src="https://via.placeholder.com/200x200" alt="Nature Image"></a>
+            <a href="#"><img src="https://via.placeholder.com/200x200" alt="Nature Image"></a>
+            <!-- Add more images here -->
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <li><a href="#"><img src="https://via.placeholder.com/100x100" alt="Food Image"> Food Item 1</a></li>
+            <li><a href="#"><img src="https://via.placeholder.com/100x100" alt="Food Image"> Food Item 2</a></li>
+            <li><a href="#"><img src="https://via.placeholder.com/100x100" alt="Food Image"> Food Item 3</a></li>
+            <!-- Add more food items here -->
+        </ul>
+    </section>
+</body>
+</html>
